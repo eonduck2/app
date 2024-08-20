@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div
@@ -12,9 +10,7 @@ export default function Home() {
         backgroundSize: "cover", // 이미지가 전체 div를 덮도록 설정
       }}
     >
-      <h1 className="text-7xl text-black font-semibold">
-        서브웨이를 주문했어요
-      </h1>
+      <h1 className="text-8xl text-black font-semibold">AWS를 마스터 해봐요</h1>
     </div>
   );
 }
